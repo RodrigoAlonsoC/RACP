@@ -18,4 +18,4 @@ Lo e probado en windows 7 y kali linux ;) .
 
 Disculpen por mi ortografia :c .
 
-![Screenshot] https://avatars1.githubusercontent.com/u/13175793?v=3&s=460
+![Screenshot] (https://avatars1.githubusercontent.com/u/13175793?v=3&s=460)
