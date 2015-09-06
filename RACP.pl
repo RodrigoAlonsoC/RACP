@@ -1,34 +1,29 @@
 #Created by Rodrigo C. 
-use LWP::Simple;
+
+use LWP::UserAgent;
 use feature qw(switch say);
 use WWW::Mechanize;
 print "\n\n\n";
 system('cls');
 print "
     Copyright (C) 2015  Rodrigo Canaza
-
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
     the Free Software Foundation, either version 3 of the License, or
     (at your option) any later version.
-
     This program is distributed in the hope that it will be useful,
     but WITHOUT ANY WARRANTY; without even the implied warranty of
     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
     GNU General Public License for more details.
-
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
-
 Contact
-
 |========================================|
 ||||||||||||||-----RACP-----||||||||||||||
 |========================================|
 [!]Si tienes alguna sugerencia o algun error contactame y reportamelo porfavor -> Gracias !
 Facebook : https://www.fb.com/RodrigoAlonzoWar .
 Autor : Rodrigo Canaza .
-
 \n";
 
 print "[!]Preciona cualquier Tecla para continuar...  ";
@@ -108,15 +103,15 @@ print "[!]Checking file :  ";
 $testurl = $url .'robots.txt';
 print "$testurl\n";
 chomp($testurl);
-$codigo = LWP::Simple::get($testurl);
-if ( $codigo =~ /User-Agent/ ||
-	 $codigo =~ /Disallow/ ){
+$por1 = LWP::UserAgent->new(); 
+$codigo = $por1->get($testurl);
+if ( $codigo->decoded_content =~ /User-Agent/ ||
+	 $codigo->decoded_content =~ /Disallow/ ){
 	print "[+]Found -> $testurl\n";
 }
 else {
 	print "[-]Not Found -> $testurl\n";
 }
-
 print "\n\n"; 
 sleep(6);
 
@@ -153,27 +148,29 @@ sleep(6);
 foreach $test(@path1){
 
 	$final_url = $url.$test;
-	$codigo_pag = LWP::Simple::get($final_url);
+	$porta = LWP::UserAgent->new();
+	$codigo_pag = $porta->get($final_url);
 
-	if ($codigo_pag =~ /admin/ || 
-		$codigo_pag =~ /password/ ||
-		$codigo_pag =~ /Contraseña/ ||
-		$codigo_pag =~ /Personal/ ||
-		$codigo_pag =~ /CLAVE/ ||
-		$codigo_pag =~ /Pass/ ||
-		$codigo_pag =~ /root/ ||
-		$codigo_pag =~ /UserName/ ||
-		$codigo_pag =~ /User/ ||
-		$codigo_pag =~ /Clave/ ||
-		$codigo_pag =~ /Token/ ||
-		$codigo_pag =~ /Password/ ||
-		$codigo_pag =~ /pass/ ||
-		$codigo_pag =~ /Hotmail/ ||
-		$codigo_pag =~ /Login/ ||
-		$codigo_pag =~ /login/ ||
-		$codigo_pag =~ /cPanel/ ||
-		$codigo_pag =~ /unauthorized/ ||
-		$codigo_pag =~ /login/){
+
+	if ($codigo_pag->decoded_content =~ /admin/ || 
+		$codigo_pag->decoded_content =~ /password/ ||
+		$codigo_pag->decoded_content =~ /Contraseña/ ||
+		$codigo_pag->decoded_content =~ /Personal/ ||
+		$codigo_pag->decoded_content =~ /CLAVE/ ||
+		$codigo_pag->decoded_content =~ /Pass/ ||
+		$codigo_pag->decoded_content =~ /root/ ||
+		$codigo_pag->decoded_content =~ /UserName/ ||
+		$codigo_pag->decoded_content =~ /User/ ||
+		$codigo_pag->decoded_content =~ /Clave/ ||
+		$codigo_pag->decoded_content =~ /Token/ ||
+		$codigo_pag->decoded_content =~ /Password/ ||
+		$codigo_pag->decoded_content =~ /pass/ ||
+		$codigo_pag->decoded_content =~ /Hotmail/ ||
+		$codigo_pag->decoded_content =~ /Login/ ||
+		$codigo_pag->decoded_content =~ /login/ ||
+		$codigo_pag->decoded_content =~ /cPanel/ ||
+		$codigo_pag->decoded_content =~ /unauthorized/ ||
+		$codigo_pag->decoded_content =~ /login/){
 
 		print "[+] Found -> ";
 	}else {
@@ -218,11 +215,13 @@ print "http://www.target.com:2082  \n\n";
 
 print "[!]Checking file :  ";
 $testurl = $url .'robots.txt';
+
 print "$testurl\n";
 chomp($testurl);
-$codigo = LWP::Simple::get($testurl);
-if ( $codigo =~ /User-Agent/ ||
-	 $codigo =~ /Disallow/ ){
+$por1 = LWP::UserAgent->new(); 
+$codigo = $por1->get($testurl);
+if ( $codigo->decoded_content =~ /User-Agent/ ||
+	 $codigo->decoded_content =~ /Disallow/ ){
 	print "[+]Found -> $testurl\n";
 }
 else {
@@ -239,25 +238,27 @@ sleep(6);
 				foreach $res(@adminpa){
 					
 					$final_url = $url.$res;
-	                $codigo_pag = LWP::Simple::get($final_url);
+	                $porta = LWP::UserAgent->new();
+	                $codigo_pag = $porta->get($final_url);
+
 	                if ($codigo_pag =~ /admin/ || 
-		$codigo_pag =~ /password/ ||
-		$codigo_pag =~ /Contraseña/ ||
-		$codigo_pag =~ /Personal/ ||
-		$codigo_pag =~ /CLAVE/ ||
-		$codigo_pag =~ /Pass/ ||
-		$codigo_pag =~ /root/ ||
-		$codigo_pag =~ /UserName/ ||
-		$codigo_pag =~ /User/ ||
-		$codigo_pag =~ /Clave/ ||
-		$codigo_pag =~ /Token/ ||
-		$codigo_pag =~ /Password/ ||
-		$codigo_pag =~ /pass/ ||
-		$codigo_pag =~ /Hotmail/ ||
-		$codigo_pag =~ /Login/ ||
-		$codigo_pag =~ /login/ ||
-		$codigo_pag =~ /unauthorized/ ||
-		$codigo_pag =~ /login/){
+		$codigo_pag->decoded_content =~ /password/ ||
+		$codigo_pag->decoded_content =~ /Contraseña/ ||
+		$codigo_pag->decoded_content =~ /Personal/ ||
+		$codigo_pag->decoded_content =~ /CLAVE/ ||
+		$codigo_pag->decoded_content =~ /Pass/ ||
+		$codigo_pag->decoded_content =~ /root/ ||
+		$codigo_pag->decoded_content =~ /UserName/ ||
+		$codigo_pag->decoded_content =~ /User/ ||
+		$codigo_pag->decoded_content =~ /Clave/ ||
+		$codigo_pag->decoded_content =~ /Token/ ||
+		$codigo_pag->decoded_content =~ /Password/ ||
+		$codigo_pag->decoded_content=~ /pass/ ||
+		$codigo_pag->decoded_content =~ /Hotmail/ ||
+		$codigo_pag->decoded_content =~ /Login/ ||
+		$codigo_pag->decoded_content =~ /login/ ||
+		$codigo_pag->decoded_content =~ /unauthorized/ ||
+		$codigo_pag->decoded_content =~ /login/){
 
 		print "[+] Found -> ";
 	}else {
@@ -409,5 +410,3 @@ close(ARCHIVO);
 	}	
 
 }
-
-
