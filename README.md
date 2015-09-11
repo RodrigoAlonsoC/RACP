@@ -34,3 +34,11 @@ Atte : Rodrigo Canaza P.
 Fb : https://www.facebook.com/RodrigoAlonzoWar
 
 ![Screenshot](https://avatars1.githubusercontent.com/u/13175793?v=3&s=460)
+
+
+Logs : 
+Upload 20/2/2015 .  (tools) 
++[FIND ADMIN PAGE]
++[FORCE BRUTE JOOMLA]
++[FORCE BRUTE WORDPRESS]
+Borrado de LWP::UserAgent 10/09/2015.
