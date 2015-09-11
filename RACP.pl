@@ -1,6 +1,8 @@
 #Created by Rodrigo C. 
-
-use LWP::UserAgent;
+#Ultima actualizacion : 
+# 10/09/2015
+# 11:02 p.m
+use LWP::Simple;
 use feature qw(switch say);
 use WWW::Mechanize;
 print "\n\n\n";
@@ -58,7 +60,7 @@ print "$msg";
 print "\n";
 print "[1]Find admin page \n";
 print "[2]Brute Force joomla. \n";
-print "[3]Brute Force WordPress. \n";
+print "[3]Brute Force WordPress. \n\n";
 print "===========================\n";
 print "[!]Porfavor escoja una opcion : ";
 $opc = <STDIN>;
@@ -103,10 +105,10 @@ print "[!]Checking file :  ";
 $testurl = $url .'robots.txt';
 print "$testurl\n";
 chomp($testurl);
-$por1 = LWP::UserAgent->new(); 
-$codigo = $por1->get($testurl);
-if ( $codigo->decoded_content =~ /User-Agent/ ||
-	 $codigo->decoded_content =~ /Disallow/ ){
+
+$codigo = LWP::Simple::get($testurl);
+if ( $codigo =~ /User-Agent/ ||
+	 $codigo =~ /Disallow/ ){
 	print "[+]Found -> $testurl\n";
 }
 else {
@@ -148,29 +150,29 @@ sleep(6);
 foreach $test(@path1){
 
 	$final_url = $url.$test;
-	$porta = LWP::UserAgent->new();
-	$codigo_pag = $porta->get($final_url);
+	
+	$codigo_pag = LWP::Simple::get($final_url);
 
 
-	if ($codigo_pag->decoded_content =~ /admin/ || 
-		$codigo_pag->decoded_content =~ /password/ ||
-		$codigo_pag->decoded_content =~ /Contraseña/ ||
-		$codigo_pag->decoded_content =~ /Personal/ ||
-		$codigo_pag->decoded_content =~ /CLAVE/ ||
-		$codigo_pag->decoded_content =~ /Pass/ ||
-		$codigo_pag->decoded_content =~ /root/ ||
-		$codigo_pag->decoded_content =~ /UserName/ ||
-		$codigo_pag->decoded_content =~ /User/ ||
-		$codigo_pag->decoded_content =~ /Clave/ ||
-		$codigo_pag->decoded_content =~ /Token/ ||
-		$codigo_pag->decoded_content =~ /Password/ ||
-		$codigo_pag->decoded_content =~ /pass/ ||
-		$codigo_pag->decoded_content =~ /Hotmail/ ||
-		$codigo_pag->decoded_content =~ /Login/ ||
-		$codigo_pag->decoded_content =~ /login/ ||
-		$codigo_pag->decoded_content =~ /cPanel/ ||
-		$codigo_pag->decoded_content =~ /unauthorized/ ||
-		$codigo_pag->decoded_content =~ /login/){
+	if ($codigo_pag =~ /admin/ || 
+		$codigo_pag =~ /password/ ||
+		$codigo_pag =~ /Contraseña/ ||
+		$codigo_pag =~ /Personal/ ||
+		$codigo_pag =~ /CLAVE/ ||
+		$codigo_pag =~ /Pass/ ||
+		$codigo_pag =~ /root/ ||
+		$codigo_pag =~ /UserName/ ||
+		$codigo_pag =~ /User/ ||
+		$codigo_pag =~ /Clave/ ||
+		$codigo_pag =~ /Token/ ||
+		$codigo_pag =~ /Password/ ||
+		$codigo_pag =~ /pass/ ||
+		$codigo_pag =~ /Hotmail/ ||
+		$codigo_pag =~ /Login/ ||
+		$codigo_pag =~ /login/ ||
+		$codigo_pag =~ /cPanel/ ||
+		$codigo_pag =~ /unauthorized/ ||
+		$codigo_pag =~ /login/){
 
 		print "[+] Found -> ";
 	}else {
@@ -218,10 +220,10 @@ $testurl = $url .'robots.txt';
 
 print "$testurl\n";
 chomp($testurl);
-$por1 = LWP::UserAgent->new(); 
-$codigo = $por1->get($testurl);
-if ( $codigo->decoded_content =~ /User-Agent/ ||
-	 $codigo->decoded_content =~ /Disallow/ ){
+
+$codigo = LWP::Simple::get($testurl);
+if ( $codigo =~ /User-Agent/ ||
+	 $codigo =~ /Disallow/ ){
 	print "[+]Found -> $testurl\n";
 }
 else {
@@ -238,27 +240,27 @@ sleep(6);
 				foreach $res(@adminpa){
 					
 					$final_url = $url.$res;
-	                $porta = LWP::UserAgent->new();
-	                $codigo_pag = $porta->get($final_url);
+	               
+	                $codigo_pag = LWP::Simple::get($final_url);
 
 	                if ($codigo_pag =~ /admin/ || 
-		$codigo_pag->decoded_content =~ /password/ ||
-		$codigo_pag->decoded_content =~ /Contraseña/ ||
-		$codigo_pag->decoded_content =~ /Personal/ ||
-		$codigo_pag->decoded_content =~ /CLAVE/ ||
-		$codigo_pag->decoded_content =~ /Pass/ ||
-		$codigo_pag->decoded_content =~ /root/ ||
-		$codigo_pag->decoded_content =~ /UserName/ ||
-		$codigo_pag->decoded_content =~ /User/ ||
-		$codigo_pag->decoded_content =~ /Clave/ ||
-		$codigo_pag->decoded_content =~ /Token/ ||
-		$codigo_pag->decoded_content =~ /Password/ ||
-		$codigo_pag->decoded_content=~ /pass/ ||
-		$codigo_pag->decoded_content =~ /Hotmail/ ||
-		$codigo_pag->decoded_content =~ /Login/ ||
-		$codigo_pag->decoded_content =~ /login/ ||
-		$codigo_pag->decoded_content =~ /unauthorized/ ||
-		$codigo_pag->decoded_content =~ /login/){
+		$codigo_pag =~ /password/ ||
+		$codigo_pag =~ /Contraseña/ ||
+		$codigo_pag =~ /Personal/ ||
+		$codigo_pag =~ /CLAVE/ ||
+		$codigo_pag =~ /Pass/ ||
+		$codigo_pag=~ /root/ ||
+		$codigo_pag =~ /UserName/ ||
+		$codigo_pag =~ /User/ ||
+		$codigo_pag =~ /Clave/ ||
+		$codigo_pag =~ /Token/ ||
+		$codigo_pag =~ /Password/ ||
+		$codigo_pag =~ /pass/ ||
+		$codigo_pag =~ /Hotmail/ ||
+		$codigo_pag =~ /Login/ ||
+		$codigo_pag =~ /login/ ||
+		$codigo_pag =~ /unauthorized/ ||
+		$codigo_pag =~ /login/){
 
 		print "[+] Found -> ";
 	}else {
@@ -408,5 +410,4 @@ else {
 	}
 close(ARCHIVO);
 	}	
-
 }
