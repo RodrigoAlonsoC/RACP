@@ -27,6 +27,9 @@ RACP una herramienta desarrollada por mi persona es lanzada a la gran fila de he
 #Probado 
 Lo e probado en windows 7 y kali linux ;) .
 
+#[!] Aviso Legal : Mi persona no se hace responsable de cualquier mal uso o daño causado por este programa.
+#[!] Legal Disclaimer : My person is not responsible for any misuse or damage caused by this program.
+
 Disculpen por mi ortografia :c .
 
 Atte : Rodrigo Canaza P.
