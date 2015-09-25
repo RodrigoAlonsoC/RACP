@@ -1,7 +1,8 @@
 #Created by Rodrigo C. 
 #Ultima actualizacion : 
-# 10/09/2015
-# 11:02 p.m
+# 25/09/2015
+# 12:15 p.m
+
 use LWP::Simple;
 use feature qw(switch say);
 use WWW::Mechanize;
@@ -19,6 +20,10 @@ print "
     GNU General Public License for more details.
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
+    [!] Aviso Legal :
+    Mi persona no se hace responsable de cualquier mal uso o daño causado por este programa.
+    [!] Legal Disclaimer :
+    My person is not responsible for any misuse or damage caused by this program.
 Contact
 |========================================|
 ||||||||||||||-----RACP-----||||||||||||||
@@ -27,14 +32,32 @@ Contact
 Facebook : https://www.fb.com/RodrigoAlonzoWar .
 Autor : Rodrigo Canaza .
 \n";
+$file = "wt.txt";
+if ( -z $file  ){ 
 
-print "[!]Preciona cualquier Tecla para continuar...  ";
-$tecla = <STDIN>;
+
+	print "[!]Aceptas los terminos ? \n";
+print "[!]Preciona Si[S] o No[N]...\n";
+$respuesta = <STDIN>;
+chomp($respuesta);
+open (TER , ">$file") || die "[!] Algo fallo ...! \n";
+print TER "$respuesta";
+close(TER);
+print "Porfavor vuelve a ejecutar RACP! \n";
+
+
+
+	}
+else {
+
+open (TER , "<$file") || die "[!]Algo Fallo ...!\n";
+while ($response = <TER>){
+	if ($response =~ /S/ ||
+		$response =~ /s/){
+
+system('cls'); 
+
 print "\n\n\n";
-
-
-
-
 $msg =<<ETQT; 
                ####################################################
                #                                                  #
@@ -411,3 +434,23 @@ else {
 close(ARCHIVO);
 	}	
 }
+} 
+else { 
+
+	print "[!]Aceptas los terminos ? \n";
+print "[!]Preciona Si[S] o No[N]...\n";
+$respuesta = <STDIN>;
+chomp($respuesta);
+open (TER , ">$file") || die "[!] Algo fallo ...! \n";
+print TER "$respuesta";
+close(TER);
+print "Porfavor vuelve a ejecutar RACP! \n";
+
+
+
+} 
+} 
+
+}
+
+
