@@ -2,6 +2,7 @@
 #Ultima actualizacion : 
 # 25/09/2015
 # 7:25 p.m
+# 7:53 p.m
 
 use LWP::Simple;
 use feature qw(switch say);
@@ -82,7 +83,8 @@ print "$msg";
 print "\n";
 print "[1]Find admin page \n";
 print "[2]Brute Force joomla. \n";
-print "[3]Brute Force WordPress. \n\n";
+print "[3]Brute Force WordPress. \n";
+print "[4]Verificar LFI\n\n";
 print "===========================\n";
 print "[!]Porfavor escoja una opcion : ";
 $opc = <STDIN>;
@@ -432,7 +434,15 @@ else {
 	}
 close(ARCHIVO);
 	}	
+when (4) {
+
+ system('modu\lficheck.pl');
+
+
 }
+} 
+
+
 }
 else { 
 
