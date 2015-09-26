@@ -3,7 +3,7 @@
 # 25/09/2015
 # 7:25 p.m
 # 7:53 p.m
-
+# Solucion fallo de directorio en kali linux :)
 use LWP::Simple;
 use feature qw(switch say);
 use WWW::Mechanize;
@@ -33,7 +33,7 @@ Contact
 Facebook : https://www.fb.com/RodrigoAlonzoWar .
 Autor : Rodrigo Canaza .
 \n";
-$file = 'mhe\dis.txt';
+$file = 'mhe/dis.txt';
 if ( -z $file  ){ 
 
 
