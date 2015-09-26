@@ -436,7 +436,7 @@ close(ARCHIVO);
 	}	
 when (4) {
 
- system('modu\lficheck.pl');
+ system('modu/lficheck.pl');
 
 
 }
