@@ -47,5 +47,5 @@ Upload 20/2/2015 .  (tools)
 +[FIND ADMIN PAGE]
 +[FORCE BRUTE JOOMLA]
 +[FORCE BRUTE WORDPRESS]
-+[Chek lfi vulnerabilidad]
++[CHECK LFI VULNERABILIDAD]
 Borrado de LWP::UserAgent 10/09/2015.
