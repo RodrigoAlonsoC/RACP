@@ -9,7 +9,7 @@
          [*]Fb : http://www.fb.com/RodrigoAlonzoWar
          
         
-# RACP V0.4
+# RACP V0.5
 Saludos !  Pronto una actualizacion ... !  expect us !
 
 #Que necesisto para usar RACP ? 
@@ -47,4 +47,5 @@ Upload 20/2/2015 .  (tools)
 +[FIND ADMIN PAGE]
 +[FORCE BRUTE JOOMLA]
 +[FORCE BRUTE WORDPRESS]
++[Chek lfi vulnerabilidad]
 Borrado de LWP::UserAgent 10/09/2015.
