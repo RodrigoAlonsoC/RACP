@@ -58,28 +58,7 @@ while ($response = <TER>){
 system('cls'); 
 
 print "\n\n\n";
-$msg =<<ETQT; 
-               ####################################################
-               #                                                  #
-               #     *******       **       ******  *******       #
-               #    /**////**     ****     **////**/**////**      #
-               #    /**   /**    **//**   **    // /**   /**      # 
-               #    /*******    **  //** /**       /*******       #
-               #    /**///**   **********/**       /**////        #
-               #    /**  //** /**//////**//**    **/**            #
-               #    /**   //**/**     /** //****** /**            #
-               #    //     // //      //   //////  //             #
-               #                                                  #
-               #   [*]Herramienta Hecha por :                     #
-               #   ->Rodrigo Canaza . "RACP"                      #
-               #   ->https://www.fb.com/RodrigoAlonzoWar          #
-               #                                                  #
-               #  Version : 0.5                                   #
-               #                                                  #
-               ####################################################
-ETQT
-
-print "$msg";
+system('perl modu\banner.pl');
 print "\n";
 print "[1]Find admin page \n";
 print "[2]Brute Force joomla. \n";
