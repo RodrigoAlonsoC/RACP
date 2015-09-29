@@ -57,7 +57,7 @@ while ($response = <TER>){
 system('cls'); 
 
 print "\n\n\n";
-system('perl modu\banner.pl');
+system('perl modu/banner.pl');
 print "\n";
 print "[1]Find admin page \n";
 print "[2]Brute Force joomla. \n";
