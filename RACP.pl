@@ -1,8 +1,7 @@
-#Created by Rodrigo C. 
-#Ultima actualizacion : 
-# 25/09/2015
-# 7:25 p.m
-# 7:53 p.m
+# Created by Rodrigo C. 
+# Ultima actualizacion : 
+# 28/09/2015
+# 7:59 p.m
 # Solucion fallo de directorio en kali linux :)
 use LWP::Simple;
 use feature qw(switch say);
