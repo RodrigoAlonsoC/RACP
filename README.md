@@ -45,16 +45,8 @@ Fb : https://www.facebook.com/RodrigoAlonzoWar
 Logs : 
 Upload 20/2/2015 .  (tools) 
 +[FIND ADMIN PAGE]
-
-
 +[FORCE BRUTE JOOMLA]
-
-
 +[FORCE BRUTE WORDPRESS]
-
-
 +[CHECK LFI VULNERABILIDAD]
-
-
 Borrado de LWP::UserAgent 10/09/2015.
 Añadi Banners random :) .
