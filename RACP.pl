@@ -43,7 +43,7 @@ chomp($respuesta);
 open (TER , ">$file") || die "[!] Algo fallo ...! \n";
 print TER "$respuesta";
 close(TER);
-print "Porfavor vuelve a ejecutar RACP! \n";
+system('perl RACP.pl');
 
 
 
@@ -58,6 +58,7 @@ system('cls');
 
 print "\n\n\n";
 system('perl modu/banner.pl');
+
 print "\n";
 print "[1]Find admin page \n";
 print "[2]Brute Force joomla. \n";
@@ -411,10 +412,10 @@ else {
 	close(PASSW);
 	}
 close(ARCHIVO);
-	}	
+	}	 
 when (4) {
 
- system('perl modu/lficheck.pl');
+ system('perl modu\lficheck.pl');
 
 
 }
@@ -431,7 +432,7 @@ chomp($respuesta);
 open (TER , ">$file") || die "[!] Algo fallo ...! \n";
 print TER "$respuesta";
 close(TER);
-print "Porfavor vuelve a ejecutar RACP! \n";
+system('perl RACP.pl')
 
 
 
