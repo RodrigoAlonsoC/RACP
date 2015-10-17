@@ -1,8 +1,9 @@
 # Created by Rodrigo C. 
 # Ultima actualizacion : 
-# 28/09/2015
-# 7:59 p.m
+# 17/10/2015
+# 8:36 a.m
 # Solucion fallo de directorio en kali linux :)
+
 use LWP::Simple;
 use feature qw(switch say);
 use WWW::Mechanize;
@@ -329,10 +330,10 @@ if ($pagco =~ /System/        ||
 	$pagco =~ /Help/          ||
 	$pagco =~ /Extensiones/   ||
 	$pagco =~ /Visitantes/ ){
-	print "[+]Funciono   -> $admj : $pl\n ";
+	print "[+]Funciono : User -> $admj , Contraseña -> $pl\n ";
 }
 else {
-	print "[-]Fallo   -> $admj : $pl\n";
+	print "[-]Fallo : User -> $admj , Contraseña -> $pl\n";
 }
 
 
@@ -392,12 +393,12 @@ if ($tex_contend =~ /Welcome/ ||
 	$tex_contend =~ /New/     ||
 	$tex_contend =~ /Nuevo/   ||
 	$tex_contend =~ /Configuracion/  ){
-	print "[+]Funciono -> $adm : $pss\n ";
+	print "[+]Funciono : User -> $adm , Contraseña -> $pss\n ";
 	exit;
 
 }
 else {
-	print "[-]Fallo  -> $adm : $pss\n ";
+	print "[-]Fallo  : User -> $adm , Contraseña -> $pss\n ";
 }
 
 }
