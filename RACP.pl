@@ -99,11 +99,7 @@ print "[!]Comensando el scaneo a : $url\n";
 print "[!]Starting ...!\n";
 print "======================================\n\n\n";
 
-print "[!] Happy Hacking ! :)\n";
-print "[!] Porfavor revisa -> $url :2082 en la pagina ! \n";
-print "[/] Ejemplo :  ";
-print "http://www.target.com:2082  \n\n";
-
+print "[!] Happy Hacking ! :)\n\n";
 print "[!]Checking file :  ";
 $testurl = $url .'robots.txt';
 print "$testurl\n";
@@ -148,7 +144,7 @@ sleep(6);
 'forum/forum.php','links/login.php/','SQLAdmin/','cmd/login/','@admin/','_adm/','_admin/','_admin_.php/'.'activate/','admin_.php/',
 'adminka/','ann/','backup/','backups/','backupserver/','cfg.php/','cfg.txt/','cgi/','cgi-914/','cgi-915/','cgi-bin/','cgi-exe/','cgi-home/',
 'cgi-home/','cgis/','chat/','cgi-sys/','cgi-win/','classes/','clients/','clients/','cobalt','config/','config.inc/','cook','db/',
-'etc/','etc/security/','guest/','hack/','htbin/','library/','/cp-manage/','/blog/wp-login.php/','intranet.php/','PortalProveedores/','pma/');
+'etc/','etc/security/','guest/','hack/','htbin/','library/','cp-manage/','blog/wp-login.php/','intranet.php/','PortalProveedores/','pma/');
 
 foreach $test(@path1){
 
@@ -213,11 +209,7 @@ print "Ejemplo...2 : http://www.target.com/PATH \n";
             print "[!]Starting ...!\n";
             print "======================================\n\n\n";
 
-print "[!] Happy Hacking ! :)\n";
-print "[!] Porfavor revisa -> $url :2082 en la pagina ! \n";
-print "[/] Ejemplo :  ";
-print "http://www.target.com:2082  \n\n";
-
+print "[!] Happy Hacking ! :)\n\n";
 print "[!]Checking file :  ";
 $testurl = $url .'robots.txt';
 
