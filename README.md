@@ -9,7 +9,7 @@
          [*]Fb : http://www.fb.com/RodrigoAlonzoWar
          
         
-# RACP V0.5
+# RACP V0.6
 Saludos !  Pronto una actualizacion ... !  expect us !
 
 #Que necesisto para usar RACP ? 
@@ -26,6 +26,9 @@ RACP una herramienta desarrollada por mi persona es lanzada a la gran fila de he
 
 #Probado 
 Lo e probado en windows 7 y kali linux ;) .
+
+#Blog : 
+- http://racp-pl.blogspot.pe/
 
 #[!] Aviso Legal : 
 Mi persona no se hace responsable de cualquier mal uso o daño causado por este programa.
