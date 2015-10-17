@@ -64,7 +64,8 @@ print "\n";
 print "[1]Find admin page \n";
 print "[2]Brute Force joomla. \n";
 print "[3]Brute Force WordPress. \n";
-print "[4]Verificar LFI\n\n";
+print "[4]Verificar LFI\n";
+print "[5]Verificar Xss <BETA>\n\n";
 print "===========================\n";
 print "[!]Porfavor escoja una opcion : ";
 $opc = <STDIN>;
@@ -411,6 +412,9 @@ when (4) {
  system('perl modu\lficheck.pl');
 
 
+}
+when (5){
+ system('perl modu\chekxss.pl');
 }
 } 
 
