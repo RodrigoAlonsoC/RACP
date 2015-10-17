@@ -133,7 +133,7 @@ $default =<<ETQT;
                #   ->Rodrigo Canaza . "RACP"                      #
                #   ->https://www.fb.com/RodrigoAlonzoWar          #
                #                                                  #
-               #  Version : 0.4                                   #
+               #  Version : 0.6                                   #
                #                                                  #
                ####################################################
 
