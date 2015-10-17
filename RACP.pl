@@ -33,7 +33,7 @@ Contact
 Facebook : https://www.fb.com/RodrigoAlonzoWar .
 Autor : Rodrigo Canaza .
 \n";
-$file = 'mhe/dis.txt';
+$file = 'mhe\dis.txt';
 if ( -z $file  ){ 
 
 
@@ -58,7 +58,7 @@ while ($response = <TER>){
 system('cls'); 
 
 print "\n\n\n";
-system('perl modu/banner.pl');
+system('perl modu\banner.pl');
 
 print "\n";
 print "[1]Find admin page \n";
