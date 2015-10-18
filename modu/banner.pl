@@ -1,6 +1,7 @@
 # Banner random ! RACP.pl
+# By Rodrigo C.
 # Creado el 28/09/2015
-# 7:48 p.m
+# Update : 10:08 a.m
 
 system('cls');  
 
@@ -41,7 +42,7 @@ $ms1 =<<ETQT;
                          \\/         \\/        \\/          
 
               [*]Have fun. Created by Rodrigo Canaza.
-                 [*]Fb : http://www.fb.com/RodrigoAlonzoWar
+                 [*]Follow me : http://racp-pl.blogspot.pe/
         
 
 ETQT
@@ -92,7 +93,7 @@ $ms4 =<<ETQT;
                /"""""""""""""""""""""""""\
                \\(@) (@) (@) (@) (@) (@)/
 
-               [*] Visitame : http://www.racp.is-great.org/
+               [*] Visitame : http://racp-pl.blogspot.pe/
                  [*] Fuck The system ! 
 
 
@@ -131,7 +132,7 @@ $default =<<ETQT;
                #                                                  #
                #   [*]Herramienta Hecha por :                     #
                #   ->Rodrigo Canaza . "RACP"                      #
-               #   ->https://www.fb.com/RodrigoAlonzoWar          #
+               #   ->plus.google.com/114214677827508172298        #
                #                                                  #
                #  Version : 0.6                                   #
                #                                                  #
