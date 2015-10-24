@@ -1,6 +1,6 @@
 # By Rodrigo.
 # Cheking lfi Beta V0.2
-# Actualizado el 27/9/2015 
+# Actualizado el 24/9/2015 
 # 9:58 a.m
 use LWP::Simple;
 print "\n";
