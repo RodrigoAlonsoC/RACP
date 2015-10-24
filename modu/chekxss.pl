@@ -1,10 +1,11 @@
 # By Rodrigo
 # Cheking XSS Beta V0.1
-# Actualizado el 17/10/2015
-# 9:04 a.m
+# Actualizado el 24/10/2015
+# 9:04
 use LWP::Simple;
 print "\n";
-print "Introduce tu URL \n";
+print "[!]Example : www.target.com/php.id= \n\n";
+print "[!]Introduce tu URL \n";
 $url = <STDIN>; 
 chomp($url);
 print "\n";
