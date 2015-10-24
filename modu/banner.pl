@@ -134,7 +134,7 @@ $default =<<ETQT;
                #   ->Rodrigo Canaza . "RACP"                      #
                #   ->plus.google.com/114214677827508172298        #
                #                                                  #
-               #  Version : 0.6                                   #
+               #  Version : 0.7                                   #
                #                                                  #
                ####################################################
 
