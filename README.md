@@ -43,5 +43,6 @@ Upload 20/2/2015 .  (tools)
 +[FORCE BRUTE JOOMLA]
 +[FORCE BRUTE WORDPRESS]
 +[CHECK LFI VULNERABILIDAD]
++[CHECK XSS VULNERABILIDAD]
 Borrado de LWP::UserAgent 10/09/2015.
 Añadi Banners random :) .
