@@ -1,7 +1,8 @@
+#!/usr/bin/perl
 # By Rodrigo.
-# Cheking lfi Beta V0.2
-# Actualizado el 24/9/2015 
-# 9:58 a.m
+# Cheking lfi Beta V0.3
+# Actualizado el 22/11/15
+# 11:07 a.m
 use LWP::Simple;
 print "\n";
 print "[A] Default.\n";
