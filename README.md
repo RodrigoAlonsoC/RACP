@@ -37,7 +37,7 @@ El script se ejecutara en forma normal .
 
 -Usted tiene la posibilidad de añadir targets para pasar el actual modulo . Ejemplo de como añadir las targets : 
 
-www.xxx.com/?php=
+www.xws.com/?php=
 
 www.xsaxx.gob.cl/[PATH]/?php=
 
