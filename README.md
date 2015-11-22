@@ -20,43 +20,40 @@ RACP una herramienta desarrollada por mi persona es lanzada a la gran fila de he
 Lo e probado en windows 7 y kali linux ;) .
 
 # LFI chek vuln : 
--> [A] Default . 
+- [A] Default . 
 
-- El script se ejecutara en forma normal . 
-
-
--> [B] Usar diccionario de paginas para verificar LFI. 
--> Uso ? <-
+El script se ejecutara en forma normal . 
 
 
-[!] Tu puedes agregar las paginas en el siguiente archivo : \n";
-[*] /RACP-master/tak/paginaslfi.txt\n\n";
+- [B] Usar diccionario de paginas para verificar LFI. 
 
 
 
-Usted tiene la posibilidad de añadir targets para pasar el actual modulo . Ejemplo de como añadir las targets : 
+-[!] Tu puedes agregar las paginas en el siguiente archivo : \n";
+-[*] /RACP-master/tak/paginaslfi.txt\n\n";
+
+
+
+-Usted tiene la posibilidad de añadir targets para pasar el actual modulo . Ejemplo de como añadir las targets : 
 
 
 
 www.xxx.com/?php=
+
 www.xsaxx.gob.cl/[PATH]/?php=
+
 www.target.gob.bo/?php=
 
-
-
-Y pues se puede aumentar mas targets :P ! 
+-Y pues se puede aumentar mas targets :P ! 
 
 
 
 [!] Las paginas vulnerables se guardaran en : \n";
+
 [*] /RACP-master/output/outlfi.txt\n\n";
 
-
-
-Las paginas vulnerables se guardaran en un archivo .txt llamado "outlfi.txt" . 
-Se guardaran las paginas que se encontraron vulnerables a los payloads .
-
-
+-Las paginas vulnerables se guardaran en un archivo .txt llamado "outlfi.txt" . 
+-Se guardaran las paginas que se encontraron vulnerables a los payloads .
 
 #Blog : 
 - http://racp-pl.blogspot.pe/
