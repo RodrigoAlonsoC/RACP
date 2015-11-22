@@ -29,7 +29,7 @@ El script se ejecutara en forma normal .
 
 
 
--[!] Tu puedes agregar las paginas en el siguiente archivo : \n";
+-[!] Tu puedes agregar las paginas en el siguiente archivo : ;
 
 -[*] /RACP-master/tak/paginaslfi.txt\n\n";
 
@@ -45,7 +45,7 @@ www.target.gob.bo/?php=
 
 -Y pues se puede aumentar mas targets :P ! 
 
-[!] Las paginas vulnerables se guardaran en : \n";
+[!] Las paginas vulnerables se guardaran en : ;
 
 [*] /RACP-master/output/outlfi.txt\n\n";
 
