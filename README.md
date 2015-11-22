@@ -66,7 +66,7 @@ Disculpen por mi ortografia :c .
 
 Atte : Rodrigo Canaza P.
 
-Fb : https://www.facebook.com/RodrigoAlonzoWar
+Fb : https://www.facebook.com/
 
 ![Screenshot](https://avatars2.githubusercontent.com/u/13175793?v=3&u=7c2c8158ccbbaf672044ff58540ff13aaa1c8157&s=140)
 
