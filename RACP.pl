@@ -1,8 +1,8 @@
 #!/usr/bin/perl
 # Created by Rodrigo C. 
 # Ultima actualizacion : 
-# 18/10/2015
-# Update : 10:13 a.m
+# 28/11/15
+# Update : 7:13 a.m
 # Solucion fallo de directorio en kali linux :)
 # Se añadio sugerencias al usuario .
 use LWP::Simple;
@@ -62,9 +62,9 @@ print "\n\n\n";
 system('perl modu/banner.pl');
 
 print "\n";
-print "[1]Find admin page \n";
-print "[2]Brute Force joomla. \n";
-print "[3]Brute Force WordPress. \n";
+print "[1]Encontrar panel de admin. \n";
+print "[2]Fuerza bruta Joomla. \n";
+print "[3]Fuerza bruta WordPress. \n";
 print "[4]Verificar LFI\n";
 print "[5]Verificar Xss <BETA>\n\n";
 print "===========================\n";
@@ -74,7 +74,7 @@ chomp($opc);
 given ($opc){
 	when (1){ 
 		print "     ";
-		print "[a]Hallar panel por default...\n";
+		print "[a]Hallar panel mediante scaneo normal...\n";
 		print "     ";
 		print "[b]Hallar panel por fuerza bruta...\n";
 		print "     ";
@@ -99,7 +99,7 @@ if ($url !~ /\/$/){
 }
 print "======================================\n\n";
 print "[!]Comensando el scaneo a : $url\n";
-print "[!]Starting ...!\n";
+print "[!]Comensando...!\n";
 print "======================================\n\n\n";
 
 print "[!] Happy Hacking ! :)\n\n";
@@ -111,10 +111,10 @@ chomp($testurl);
 $codigo = LWP::Simple::get($testurl);
 if ( $codigo =~ /User-Agent/ ||
 	 $codigo =~ /Disallow/ ){
-	print "[+]Found -> $testurl\n";
+	print "[+] Se encontro archivo -> $testurl\n";
 }
 else {
-	print "[-]Not Found -> $testurl\n";
+	print "[-] No se encontro archivo -> $testurl\n";
 }
 print "\n\n"; 
 sleep(6);
@@ -176,9 +176,9 @@ foreach $test(@path1){
 		$codigo_pag =~ /unauthorized/ ||
 		$codigo_pag =~ /login/){
 
-		print "[+] Found -> ";
+		print "[+] Panel -> ";
 	}else {
-		print "[-] Not Fund -> ";
+		print "[-] No Panel -> ";
 	}
 	print "$final_url\n"
 }
@@ -222,10 +222,10 @@ chomp($testurl);
 $codigo = LWP::Simple::get($testurl);
 if ( $codigo =~ /User-Agent/ ||
 	 $codigo =~ /Disallow/ ){
-	print "[+]Found -> $testurl\n";
+	print "[+] Se encontro archivo -> $testurl\n";
 }
 else {
-	print "[-]Not Found -> $testurl\n";
+	print "[-] No se encontro archivo -> $testurl\n";
 }
 
 print "\n\n"; 
@@ -260,9 +260,9 @@ sleep(6);
 		$codigo_pag =~ /unauthorized/ ||
 		$codigo_pag =~ /login/){
 
-		print "[+] Found -> ";
+		print "[+] Panel -> ";
 	}else {
-		print "[-] Not Fund -> ";
+		print "[-] No panel -> ";
 	}
 	print "$final_url\n"
 	
@@ -295,18 +295,18 @@ if ($url !~ /\/$/){
 }
 $joompe= WWW::Mechanize->new();
 $joompe->get($url);
-print "Introdusca el directorio de el diccionario del Nombre de Usuario ! : \n\n";
+print "Introdusca el archivo que contiene los usuarios : \n\n";
 my $userlist = <STDIN>;
 chomp($userlist);
 print "==============================\n\n";
-print "Introdusca el diccionario de las passwords ! : \n\n";
+print "Introdusca el archivo que contiene las contraseñas : \n\n";
 my $paslist = <STDIN>;
 chomp($paslist);
 print "\n\n";
 print "======================================\n";
 print "[!]Comensando el BRUTE FORCE a : \n";
 print "[->] $url\n";
-print "[!]Starting ...!\n";
+print "[!]Comensando ...!\n";
 print "======================================\n\n\n";
 open (JOO , "<$userlist") || die "[!]Fallo ...! \n";
 while ($admj = <JOO>){
@@ -362,11 +362,11 @@ if ($url !~ /\/$/){
 
 $wp= WWW::Mechanize->new();
 $wp->get($url);
-print "Introdusca el directorios de el diccionario del Username ! : \n";
+print "Introdusca el archivo que contiene los usuarios : \n";
 my $Username = <STDIN>;
 chomp($Username);
 print "==============================\n\n";
-print "Introdusca el diccionario del Password ! : \n";
+print "Introdusca el archivo que contiene las contraseñas \n";
 my $password = <STDIN>;
 chomp($password);
 print "\n\n";
