@@ -1,3 +1,4 @@
+#!/usr/bin/perl
 # By Rodrigo
 # Cheking XSS Beta V0.1
 # Actualizado el 24/10/2015
