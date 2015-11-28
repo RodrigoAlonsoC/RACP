@@ -1,3 +1,4 @@
+#!/usr/bin/perl
 # Banner random ! RACP.pl
 # By Rodrigo C.
 # Creado el 28/09/2015
