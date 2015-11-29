@@ -24,9 +24,13 @@ Usted puede ejecutar el script de la siguiente manera :
 - perl install.pl
 
 =====================
+
 [+] Instalar "RACP" en Kali Linux .
+
 [+] Usted podra llamar ahora al programa desde cualquier lado , escribiendo en la consola RACP
+
 [+] Saludos ! 
+
 =====================
 
 # LFI chek vuln : 
