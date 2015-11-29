@@ -1,14 +1,1 @@
-int "\n\n";
-print "INstalando\n";
-system('mkdir /usr/share/RACP/');
-system('cp -r Diccionarios /usr/share/RACP/');
-system('cp -r mhe /usr/share/RACP/');
-system('cp -r modu /usr/share/RACP/');
-system('cp -r opt /usr/share/RACP/');
-system('cp -r tak /usr/share/RACP/');
-system('cp RACP.pl /usr/share/RACP/');
-system('cp LICENSE.txt /usr/share/RACP/');
-system('cp README.md /usr/share/RACP/');
-system('cp RACP /usr/bin/');
-system('chmod -c -R 777 /usr/share/RACP/');
-system('chmod -c 777 /usr/bin/RACP');
+#coming soon
