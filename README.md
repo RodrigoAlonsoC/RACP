@@ -19,6 +19,16 @@ RACP una herramienta desarrollada por mi persona es lanzada a la gran fila de he
 #Probado 
 Lo e probado en windows 7 y kali linux ;) .
 
+# Instalar en Kali Linux (install.pl) :  
+Usted puede ejecutar el script de la siguiente manera :
+- perl install.pl
+
+=====================
+[+] Instalar "RACP" en Kali Linux .
+[+] Usted podra llamar ahora al programa desde cualquier lado , escribiendo en la consola RACP
+[+] Saludos ! 
+=====================
+
 # LFI chek vuln : 
 - [A] Default . 
 
