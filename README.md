@@ -4,8 +4,6 @@
 # RACP V0.8
 Saludos !  Pronto una actualizacion ... !  expect us !
 
-![Screenshot] (http://ih0.redbubble.net/image.91645459.8807/sticker,220x200-pad,220x200,ffffff.u4.jpg)
-
 #Que necesisto para usar RACP ? 
 Mi intencion fue hacerlo multiplataforma, ya que existe gente que no cuenta con un sistema operativo linux ;) .
 Lo malo esque para windows no funciona algunas funciones de RACP .
@@ -20,6 +18,9 @@ RACP una herramienta desarrollada por mi persona es lanzada a la gran fila de he
 
 #Probado 
 Lo e probado en windows 7 y kali linux ;) .
+
+![Screenshot] (http://ih0.redbubble.net/image.91645459.8807/sticker,220x200-pad,220x200,ffffff.u4.jpg)
+![Screenshot] (http://thumbs4.ebaystatic.com/d/l225/m/mHRwrxOQ4L_clXkjIj-VyyA.jpg)
 
 # Instalar en Kali Linux (install.pl) :  
 Usted puede ejecutar el script de la siguiente manera :
