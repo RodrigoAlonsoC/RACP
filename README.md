@@ -4,6 +4,8 @@
 # RACP V0.8
 Saludos !  Pronto una actualizacion ... !  expect us !
 
+![Screenshot] (http://ih0.redbubble.net/image.91645459.8807/sticker,220x200-pad,220x200,ffffff.u4.jpg)
+
 #Que necesisto para usar RACP ? 
 Mi intencion fue hacerlo multiplataforma, ya que existe gente que no cuenta con un sistema operativo linux ;) .
 Lo malo esque para windows no funciona algunas funciones de RACP .
