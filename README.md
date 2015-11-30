@@ -25,7 +25,6 @@ Lo e probado en windows 7 y kali linux ;) .
 # Instalar en Kali Linux (install.pl) :  
 Usted puede ejecutar el script de la siguiente manera :
 - perl install.pl 
-or
 - ./install.pl
 
 =====================
