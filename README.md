@@ -4,6 +4,13 @@
 # RACP V0.8
 Saludos !  Pronto una actualizacion ... !  expect us !
 
+# Donar : 
+![Screenshot] (https://bitstickers.net/wp-content/uploads/2013/12/btc-simple-orange-200x200.jpg)
+
+-Puedes apoyarme si deceas :P
+
+13MQkZJvEe1EyeyvQJEgR9YFDE86aQtMfr
+
 #Que necesisto para usar RACP ? 
 Mi intencion fue hacerlo multiplataforma, ya que existe gente que no cuenta con un sistema operativo linux ;) .
 Lo malo esque para windows no funciona algunas funciones de RACP .
