@@ -7,8 +7,6 @@ Saludos !  Pronto una actualizacion ... !  expect us !
 # Donar : 
 ![Screenshot] (https://bitstickers.net/wp-content/uploads/2013/12/btc-simple-orange-200x200.jpg)
 
--Puedes apoyarme si deceas :P
-
 13MQkZJvEe1EyeyvQJEgR9YFDE86aQtMfr
 
 #Que necesisto para usar RACP ? 
