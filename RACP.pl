@@ -1,8 +1,8 @@
 #!/usr/bin/perl
 # Created by Rodrigo C. 
 # Ultima actualizacion : 
-# 28/11/15
-# Update : 7:13 a.m
+# 17/12/15
+# Update : 3:43 p.m
 # Solucion fallo de directorio en kali linux :)
 # Se añadio sugerencias al usuario .
 use LWP::Simple;
