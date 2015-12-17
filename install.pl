@@ -29,7 +29,7 @@ $banner =<<ETQT;
              
             [*]Have fun. Created by Rodrigo Canaza.
             [*]Blog : http://racp-pl.blogspot.pe/
-            [*]Version - 0.8 ...
+            [*]Version - 0.9 ...
 
 
 ETQT
