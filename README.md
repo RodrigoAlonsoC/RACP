@@ -18,7 +18,7 @@ Los requirimientos son los siguientes :
 -Tener instalado Mechanize . 
 
 #¿Qué es «RACP»? 
-RACP una herramienta desarrollada por mi persona es lanzada a la gran fila de herramientas en pentest para hackers y para personas que les interesa la «INSEGURIDAD INFORMATICA», esta herramienta facilita al usuario a llevar acabo una inspección en busca de paneles de administrador e intentar ataques de fuerza bruta a CMS muy conocidas como la de wordpress y la de joomla.
+RACP una herramienta desarrollada por mi persona es lanzada a la gran fila de herramientas en pentest para hackers y para personas que les interesa la «INSEGURIDAD INFORMATICA», esta herramienta facilita al usuario a llevar acabo una inspección en busca de paneles de administrador e intentar ataques de fuerza bruta a CMS muy conocidas como la de wordpress y la de joomla y tambien se puede verificar las siguientes vulnerabilidades : XSS , LFI .
 
 
 #Probado 
