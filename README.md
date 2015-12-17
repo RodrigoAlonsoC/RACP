@@ -42,7 +42,22 @@ Usted puede ejecutar el script de la siguiente manera :
 
 =====================
 
-# LFI chek vuln : 
+# XSS Check vuln : 
+- [A] Default .
+
+El script se ejecutar en forma normal .
+
+- [B] Usar diccionario de paginas para verificar XSS.
+
+-Tu puedes agregar las paginas para verificar xss en el siguiente archivo de texto : 
+
+/RACP-master/tak/paginasxss.txt
+
+-Las paginas vulnerables se guardaran en :
+
+ /RACP-master/output/outxss.txt
+
+# LFI Check vuln : 
 - [A] Default . 
 
 El script se ejecutara en forma normal . 
