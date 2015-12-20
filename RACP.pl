@@ -66,7 +66,7 @@ print "[1]Encontrar panel de admin. \n";
 print "[2]Fuerza bruta Joomla. \n";
 print "[3]Fuerza bruta WordPress. \n";
 print "[4]Verificar LFI\n";
-print "[5]Verificar Xss <BETA>\n\n";
+print "[5]Verificar Xss\n\n";
 print "===========================\n";
 print "[!]Porfavor escoja una opcion : ";
 $opc = <STDIN>;
