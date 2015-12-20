@@ -1,5 +1,5 @@
-# V 0.1 Install.pl
-# Upload 29/11/15
+# V 0.2 Install.pl
+# Upload 20/12/15
 # 12:37 p.m
 #By Rodrigo
 system('clear');
@@ -39,7 +39,7 @@ print "[+] Instalando RACP ...\n";
 print "[+] Espere un momento porfavor ... ! \n";
 print "\n";
 sleep(6);
-system('mkdir /usr/share/RACP/');
+system('mkdir -p /usr/share/RACP/');
 system('cp -r Diccionarios /usr/share/RACP/');
 system('cp -r mhe /usr/share/RACP/');
 system('cp -r modu /usr/share/RACP/');
