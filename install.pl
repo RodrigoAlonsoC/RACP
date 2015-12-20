@@ -1,5 +1,5 @@
 # V 0.2 Install.pl
-# Upload 20/12/15
+# Upload 29/11/15
 # 12:37 p.m
 #By Rodrigo
 system('clear');
@@ -40,15 +40,15 @@ print "[+] Espere un momento porfavor ... ! \n";
 print "\n";
 sleep(6);
 system('mkdir -p /usr/share/RACP/');
-system('cp -r Diccionarios /usr/share/RACP/');
-system('cp -r mhe /usr/share/RACP/');
-system('cp -r modu /usr/share/RACP/');
-system('cp -r opt /usr/share/RACP/');
-system('cp -r tak /usr/share/RACP/');
-system('cp RACP.pl /usr/share/RACP/');
-system('cp LICENSE.txt /usr/share/RACP/');
-system('cp README.md /usr/share/RACP/');
-system('cp RACP /usr/bin/');
+system('cp -r -uv Diccionarios /usr/share/RACP/');
+system('cp -r -uv mhe /usr/share/RACP/');
+system('cp -r -uv modu /usr/share/RACP/');
+system('cp -r -uv opt /usr/share/RACP/');
+system('cp -r -uv tak /usr/share/RACP/');
+system('cp -uv RACP.pl /usr/share/RACP/');
+system('cp -uv LICENSE.txt /usr/share/RACP/');
+system('cp -uv README.md /usr/share/RACP/');
+system('cp -uv RACP /usr/bin/');
 print "[*] Brindando Privilegios *** \n";
 sleep(6);
 print "\n\n";
