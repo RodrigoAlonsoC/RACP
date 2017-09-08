@@ -1,14 +1,16 @@
 
 ![img](https://scontent.faqp1-1.fna.fbcdn.net/v/t1.0-9/12108889_923013831102797_3823072689365061301_n.jpg?oh=d4bfa7bb7073cac3c81409e286fb7529&oe=5A143B9E)
+
 # RACP V0.9
 Saludos !  Pronto una actualizacion ... !  expect us !
 
 # Donar : 
-![Screenshot] (https://bitstickers.net/wp-content/uploads/2013/12/btc-simple-orange-200x200.jpg)
+![img](https://bitstickers.net/wp-content/uploads/2013/12/btc-simple-orange-200x200.jpg)
 
-13MQkZJvEe1EyeyvQJEgR9YFDE86aQtMfr
+#--#
 
 #Que necesisto para usar RACP ? 
+
 Mi intencion fue hacerlo multiplataforma, ya que existe gente que no cuenta con un sistema operativo linux ;) .
 Lo malo esque para windows no funciona algunas funciones de RACP .
 Son Pocas ;) xd .
@@ -19,12 +21,11 @@ Los requirimientos son los siguientes :
 #¿Qué es «RACP»? 
 RACP una herramienta desarrollada por mi persona es lanzada a la gran fila de herramientas en pentest para hackers y para personas que les interesa la «INSEGURIDAD INFORMATICA», esta herramienta facilita al usuario a llevar acabo una inspección en busca de paneles de administrador e intentar ataques de fuerza bruta a CMS muy conocidas como la de wordpress y la de joomla y tambien se puede verificar las siguientes vulnerabilidades : XSS , LFI .
 
-
 #Probado 
 Lo e probado en windows 7 y kali linux ;) .
 
-![Screenshot] (http://ih0.redbubble.net/image.91645459.8807/sticker,220x200-pad,220x200,ffffff.u4.jpg)
-![Screenshot] (http://thumbs4.ebaystatic.com/d/l225/m/mHRwrxOQ4L_clXkjIj-VyyA.jpg)
+![img](http://ih0.redbubble.net/image.91645459.8807/sticker,220x200-pad,220x200,ffffff.u4.jpg)
+![img](http://thumbs4.ebaystatic.com/d/l225/m/mHRwrxOQ4L_clXkjIj-VyyA.jpg)
 
 # Instalar en Kali Linux (install.pl) :  
 Usted puede ejecutar el script de la siguiente manera :
@@ -105,7 +106,7 @@ Atte : Rodrigo Canaza P.
 
 Fb : https://www.facebook.com/
 
-![Screenshot](https://avatars2.githubusercontent.com/u/13175793?v=3&u=7c2c8158ccbbaf672044ff58540ff13aaa1c8157&s=140)
+![img](https://avatars2.githubusercontent.com/u/13175793?v=3&u=7c2c8158ccbbaf672044ff58540ff13aaa1c8157&s=140)
 
 
 Logs : 
