@@ -4,8 +4,7 @@
 # RACP V0.9
 Saludos !  Pronto una actualizacion ... !  expect us !
 
-# Donar : 
-![img](https://bitstickers.net/wp-content/uploads/2013/12/btc-simple-orange-200x200.jpg)
+
 
 #--#
 
